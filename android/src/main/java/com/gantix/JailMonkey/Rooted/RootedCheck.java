@@ -25,6 +25,7 @@ public class RootedCheck {
 
     private static boolean rootBeerCheck(Context context) {
         RootBeer rootBeer = new RootBeer(context);
+        rootBear.setLogging(false);
         
         return rootBeer.isRootedWithoutBusyBoxCheck();
     }
